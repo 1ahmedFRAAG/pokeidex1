@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2780E431EA950BA00E122B5 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2780E421EA950BA00E122B5 /* Pokemon.swift */; };
+		E2780E451EA9A32000E122B5 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = E2780E441EA9A32000E122B5 /* pokemon.csv */; };
+		E2780E471EAA8CF800E122B5 /* Pokemoncell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2780E461EAA8CF800E122B5 /* Pokemoncell.swift */; };
+		E2780E491EAA9B9C00E122B5 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2780E481EAA9B9C00E122B5 /* csv.swift */; };
+		E2780E4C1EAAF1C500E122B5 /* opening.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E2780E4B1EAAF1C500E122B5 /* opening.mp3 */; };
+		E2780E4E1EAAF1E500E122B5 /* Pokemon Hollow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2780E4D1EAAF1E500E122B5 /* Pokemon Hollow.ttf */; };
 		E286F2A71EA8FEFB0007937A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E286F2A61EA8FEFB0007937A /* AppDelegate.swift */; };
 		E286F2A91EA8FEFB0007937A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E286F2A81EA8FEFB0007937A /* ViewController.swift */; };
 		E286F2AC1EA8FEFB0007937A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E286F2AA1EA8FEFB0007937A /* Main.storyboard */; };
@@ -16,6 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E2780E421EA950BA00E122B5 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		E2780E441EA9A32000E122B5 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
+		E2780E461EAA8CF800E122B5 /* Pokemoncell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemoncell.swift; sourceTree = "<group>"; };
+		E2780E481EAA9B9C00E122B5 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
+		E2780E4B1EAAF1C500E122B5 /* opening.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = opening.mp3; sourceTree = "<group>"; };
+		E2780E4D1EAAF1E500E122B5 /* Pokemon Hollow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Hollow.ttf"; sourceTree = "<group>"; };
 		E286F2A31EA8FEFB0007937A /* pokeidex final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pokeidex final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E286F2A61EA8FEFB0007937A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E286F2A81EA8FEFB0007937A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +49,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E2780E3F1EA9506A00E122B5 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		E2780E401EA9507700E122B5 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E2780E461EAA8CF800E122B5 /* Pokemoncell.swift */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		E2780E411EA9508100E122B5 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				E2780E421EA950BA00E122B5 /* Pokemon.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		E2780E4A1EAA9BB000E122B5 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				E2780E481EAA9B9C00E122B5 /* csv.swift */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		E2780E4F1EAAF1EC00E122B5 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				E2780E4B1EAAF1C500E122B5 /* opening.mp3 */,
+				E2780E4D1EAAF1E500E122B5 /* Pokemon Hollow.ttf */,
+				E2780E441EA9A32000E122B5 /* pokemon.csv */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
 		E286F29A1EA8FEF80007937A = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +109,11 @@
 		E286F2A51EA8FEFB0007937A /* pokeidex final */ = {
 			isa = PBXGroup;
 			children = (
+				E2780E4F1EAAF1EC00E122B5 /* util */,
+				E2780E4A1EAA9BB000E122B5 /* resources */,
+				E2780E411EA9508100E122B5 /* model */,
+				E2780E401EA9507700E122B5 /* view */,
+				E2780E3F1EA9506A00E122B5 /* controller */,
 				E286F2A61EA8FEFB0007937A /* AppDelegate.swift */,
 				E286F2A81EA8FEFB0007937A /* ViewController.swift */,
 				E286F2AA1EA8FEFB0007937A /* Main.storyboard */,
@@ -99,6 +157,7 @@
 				TargetAttributes = {
 					E286F2A21EA8FEF90007937A = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -128,7 +187,10 @@
 			files = (
 				E286F2B41EA8FEFB0007937A /* LaunchScreen.storyboard in Resources */,
 				E286F2B11EA8FEFB0007937A /* Assets.xcassets in Resources */,
+				E2780E4E1EAAF1E500E122B5 /* Pokemon Hollow.ttf in Resources */,
+				E2780E451EA9A32000E122B5 /* pokemon.csv in Resources */,
 				E286F2AC1EA8FEFB0007937A /* Main.storyboard in Resources */,
+				E2780E4C1EAAF1C500E122B5 /* opening.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +201,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2780E491EAA9B9C00E122B5 /* csv.swift in Sources */,
 				E286F2AF1EA8FEFB0007937A /* pokeidex_final.xcdatamodeld in Sources */,
+				E2780E431EA950BA00E122B5 /* Pokemon.swift in Sources */,
 				E286F2A91EA8FEFB0007937A /* ViewController.swift in Sources */,
+				E2780E471EAA8CF800E122B5 /* Pokemoncell.swift in Sources */,
 				E286F2A71EA8FEFB0007937A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +370,7 @@
 				E286F2BA1EA8FEFB0007937A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
